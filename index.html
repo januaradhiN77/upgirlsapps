@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Up Girls App - Home</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<header>
+                <div class="header_app">
+                <div class="header_logo">
+                <img src="img/up_girls_logo.png">
+                </div>
+
+        </div>
+</header>
+
+
+<body>
+
+<section class="home-content">
+    <div class="banner">
+        <div class="slides">
+            <div class="slide">
+                <button class="buttonmem" onclick="goToWebsite('')">
+                    <img src="img/banner_upgirls.png" alt="">
+                </button>
+            </div>
+            <div class="slide">
+                                <button class="buttonmem" onclick="goToWebsite('')">
+                                        <img src="img/banner_upgirls.png" alt="">
+                                </button>
+                        </div>
+            <div class="slide">
+                                <button class="buttonmem" onclick="goToWebsite('')">
+                                        <img src="img/banner_upgirls.png" alt="">
+                                </button>
+                        </div>
+            <div class="slide">
+                                <button class="buttonmem" onclick="goToWebsite('')">
+                                        <img src="img/banner_upgirls.png" alt="">
+                                </button>
+                        </div>
+            <div class="slide">
+                                <button class="buttonmem" onclick="goToWebsite('')">
+                                        <img src="img/banner_upgirls.png" alt="">
+                                </button>
+                        </div>
+            <div class="slide">
+                                <button class="buttonmem" onclick="goToWebsite('')">
+                                        <img src="img/banner_upgirls.png" alt="">
+                                </button>
+                        </div>
+            <div class="slide">
+                                <button class="buttonmem" onclick="goToWebsite('')">
+                                        <img src="img/banner_upgirls.png" alt="">
+                                </button>
+                        </div>
+            <div class="slide">
+                                <button class="buttonmem" onclick="goToWebsite('')">
+                                        <img src="img/banner_upgirls.png" alt="">
+                                </button>
+                        </div>
+            <div class="navigation">
+                <button class="prev buttonmem" onclick="plusSlides(-1)">&#10094;</button>
+                <button class="next buttonmem" onclick="plusSlides(1)">&#10095;</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("slide");
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
+    
+</section>
+<section class="home">
+       
+        <div class="text-sc">
+        <h1>Up Girls Schedule</h1>
+        <span>23 - 24 November 2023</span>
+        </div>
+     <div class="event-h-container">
+             <button class="buttonmem" onclick="goToWebsite('event.html')"><div class="event-h-box">
+                     <img src="imgeventban/minishow24nov.jpg">
+                    <div class="tagline">
+                     <span class="tag_mshow">Mini Show</span>
+                    <span class="tag_upg">Up Girls</span>
+                    </div>
+                    <div class="event-detail">
+                            <h2>Minishow Up Girls Carousel</h2>
+                            <span>Jum, 24 Nov • 15:30</span>
+                    </div>
+             </div></button>
+             <button class="buttonmem" onclick="goToWebsite('event.html')"><div class="event-h-box">
+                     <img src="imgeventban/minishow24nov.jpg">
+                    <div class="tagline">
+                     <span class="tag_mshow">Mini Show</span>
+                    <span class="tag_upg">Up Girls</span>
+                    </div>
+                    <div class="event-detail">
+                            <h2>Minishow Up Girls Carousel</h2>
+                            <span>Jum, 24 Nov • 15:30</span>
+                    </div>
+             </div></button>
+
+
+     </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
