@@ -35,7 +35,7 @@ document.getElementById('mem10').innerHTML = 'Liz';
 const applyLink = document.getElementById("applyLink");
 
 applyLink.addEventListener("click", () => {
-    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScgJB8Cj-e-xCXUFQxii_4IdznjvFoHvN_rbcutH_ZAtPRfOA/viewform'; // Use the URL directly
+    window.location.href = 'https://l.instagram.com/?u=https%3A%2F%2Fforms.gle%2FMGewquJnU3aKE1uU6%3Ffbclid%3DPAAabIRFs3pll0UVIQ6vSrCdyoitMwdhumDDY_H-mDnMuBaRssoOYVhS_QuXo&e=AT3q220bpVmfjiFSDZG0O5f-iB5HwzP5wCBC9Ii8I7BQ9v5RWX1MTwRCwUMVi_jXjReR8gF0mQTBjC01gcZVI_OxvQvZYKRJc2QsF0k'; // Use the URL directly
 });
 
     // Menyesuaikan href tombol
