@@ -182,7 +182,7 @@ html{
    justify-content: center;
    
    flex-direction: column;
-   margin-left: 20px;
+   margin-left: 0px;
    margin-top: 0px;
 }
 .text-program h1{
@@ -194,7 +194,7 @@ html{
       justify-content: center;
       align-items: center;
       margin-top: 40px;
-      gap: 150px;
+      gap: 155px;
       
 }
 .seemore-program{
