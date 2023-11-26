@@ -108,7 +108,7 @@
         <span>Event & Show 2023</span>
         </div>
      <div class="event-h-container">
-             <button class="buttonmem" onclick="goToWebsite('event.html')"><div class="event-h-box">
+             <button class="buttonmem" onclick="tampilkanDetailEvent('minishow24nov23')"><div class="event-h-box">
                      <img src="imgeventban/minishow24nov.jpg">
                     <div class="tagline">
                      <span class="tag_mshow">Mini Show</span>
@@ -119,7 +119,7 @@
                             <span>Jum, 24 Nov • 15:30</span>
                     </div>
              </div></button>
-             <button class="buttonmem" onclick="goToWebsite('event.html')"><div class="event-h-box">
+             <button class="buttonmem" onclick="tampilkanDetailEvent('minishow29okt23')"><div class="event-h-box">
                      <img src="imgeventban/upgirlsevent.jpg">
                     <div class="tagline">
                      <span class="tag_mshow">Mini Show</span>
@@ -260,13 +260,23 @@
 <br><br><br><br>
 
 
-
+<script>
+        
+function tampilkanDetailEvent(eventId) {
+            // Mengarahkan ke halaman detail lagu sesuai lagu yang dipilih
+            window.top.location.href = 'event.html?event=' + eventId;
+            
+            return false;
+        }
+        
+</script>
 
 
 
 
 
   <!-- Project -->
+  <script src="event-data.js"></script>
   <script src="main.js"></script>
 </body>
 </html>

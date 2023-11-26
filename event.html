@@ -32,17 +32,17 @@
 
 <section class="event">
         <div class="event-container">
-                <img src="imgeventban/upgirlsevent.jpg">
+                <img src="" id="imageShow">
                 <div class="keterangan-event">
-<h2>Minishow Up Girls Carousel</h2>
-<span>Jumat, 24 November • 15:30</span>
+<h2 id="judulShow"></h2>
+<span id="tanggalShow"></span>
                 </div>
    <div class="location">
            <span class="mdi mdi-map-marker"></span>
-           <p>Bandung Creative Hub</p>
+           <p id="locationShow"></p>
    </div>
              <div class="alamat-lengkap">
-                     <h5>Jl. Laswi No.7 Kacapiring, Bandung, Jawa Barat</h5>
+                     <h5 id="alamatLengkap"></h5>
              </div>
         </div>
 
@@ -64,44 +64,44 @@
         <div class="member-perform">
                 <div class="member-perform-box">
                         <img src="memberimg/una.jpg">
-                        <span>Una</span>
+                        <span id=mem1></span>
                 </div>
                 <div class="member-perform-box">
                         <img src="memberimg/rin.jpg">
-                        <span>Rin</span>
+                        <span id="mem2"></span>
                 </div>
                 <div class="member-perform-box">
                         <img src="memberimg/rea.jpg">
-                        <span>Rea</span>
+                        <span id="mem3"></span>
                 </div>
                 <div class="member-perform-box">
                         <img src="memberimg/ute.jpg">
-                        <span>Ute</span>
+                        <span id="mem4"></span>
                 </div>
                 <div class="member-perform-box">
                         <img src="memberimg/fia.jpg">
-                        <span>Fia</span>
+                        <span id="mem5"></span>
                 </div>
                 <div class="member-perform-box">
                         <img src="memberimg/vey.jpg">
-                        <span>Vey</span>
+                        <span id="mem6"></span>
                 </div>
                 <div class="member-perform-box">
                         <img src="memberimg/nat.jpg">
-                        <span>Nat</span>
+                        <span id="mem7"></span>
                 </div>
                 <div class="member-perform-box">
                         <img src="memberimg/ura.jpg">
-                        <span>Ura</span>
+                        <span id="mem8"></span>
                 </div>
 
                 <div class="member-perform-box">
                         <img src="memberimg/dee.jpg">
-                        <span>Dee</span>
+                        <span id="mem9"></span>
                 </div>
                 <div class="member-perform-box">
                         <img src="memberimg/liz.jpg">
-                        <span>Liz</span>
+                        <span id="mem10"></span>
                 </div>
                 
                 
@@ -112,13 +112,14 @@
 <section class="button-buy">
         <div class="button-buy-container">
                 <span class="detail">Info lebih lanjut</span>
-                <button class="buttonmem" onclick="goToWebsite('https://docs.google.com/forms/d/e/1FAIpQLScgJB8Cj-e-xCXUFQxii_4IdznjvFoHvN_rbcutH_ZAtPRfOA/viewform')"><span class="apply">Apply show</span></button>
+                <button class="buttonmem" id="applyLink"><span class="apply">Apply show</span></button>
                 
         </div>
 </section>
 <br>
 <br>
   <!-- Project -->
+  <script src="event-data.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
