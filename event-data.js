@@ -45,7 +45,7 @@ applyLink.addEventListener("click", () => {
 
 
 if (eventId === 'minishow29okt23') {
-    document.getElementById('judulShow').innerHTML = 'The Upgirls Presents Mini Sho';
+    document.getElementById('judulShow').innerHTML = 'The Upgirls Presents Mini Show';
     document.getElementById('tanggalShow').innerHTML = 'Minggu, 29 Oktober • 16:00';
     document.getElementById('locationShow').innerHTML = 'C7HOMECOFFEE';
     document.getElementById('imageShow').src = 'imgeventban/upgirlsevent.jpg';
