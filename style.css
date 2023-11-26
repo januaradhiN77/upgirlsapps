@@ -295,7 +295,7 @@ html{
 .event-detail{
       display: flex;
       flex-direction: column;
-      width: 120px;
+      width: 150px;
       margin-top: 5px;
       justify-content: left;
       align-items: left;
