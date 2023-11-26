@@ -176,6 +176,85 @@ html{
     border-radius: 20px;
     object-fit: cover;
 }
+.text-program{
+
+   display: flex;
+   justify-content: center;
+   
+   flex-direction: column;
+   margin-left: 20px;
+   margin-top: 0px;
+}
+.text-program h1{
+   font-size: 25px;
+   font-weight: 500;
+}
+.program-text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+      gap: 130px;
+      
+}
+.seemore-program{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+.seemore-program span{
+        font-size: 38px;
+        color: #9958FF;
+}
+.seemore-program p{
+        font-size: 18px;
+        margin-top: -3px; 
+        font-weight: 500;
+        color: #9958FF;
+}
+.program-h-container{
+
+     display: flex;
+
+     flex-wrap: wrap;
+     justify-content: center;
+     width: 100%;
+     align-items: center;
+     margin-top: 20px;
+     gap: 15px;
+}
+.program-h-box:hover{
+
+        background: #00000069;
+
+        border-radius: 10px;
+        
+        transition: 0.5s ease;
+}
+.program-h-box:not(:hover){
+
+        background: transparent;
+
+        
+        
+        transition: 0.5s ease;
+}
+.program-h-box{
+     display: flex;
+     flex-direction: column;
+     
+     margin-right: auto;
+     background: transparent;
+     width: 100%;
+}
+
+.program-h-box img{
+    width: 170px;
+    height: 170px;
+    border-radius: 20px;
+    object-fit: cover;
+}
 .tagline{
         display: flex;
         width: 100%;
@@ -227,6 +306,28 @@ html{
         color: #000000E8;
 }
 .event-detail span{
+        font-size: 12px;
+        
+}
+.program-detail{
+
+      display: flex;
+
+      flex-direction: column;
+      width: 170px;
+      margin-top: 5px;
+      justify-content: left;
+      align-items: left;
+      margin-right: auto;
+      text-align: left;
+      gap: 5px;
+}
+.program-detail h2{
+        font-size: 20px;
+        font-weight: 500;
+        color: #000000E8;
+}
+.program-detail span{
         font-size: 12px;
         
 }
