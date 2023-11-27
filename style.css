@@ -705,4 +705,87 @@ margin-left: 5px;
         border-radius: 2px 2px 0px 0px;
         z-index: 9999;
 }
+.profile-member-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        width: 90%;
+        height: auto;
+        border: 2px solid #0000004F;
+        border-radius: 5px;
+        margin-top: 30px;
+}
+.profile-member-box{
+        display: flex;
+        text-align: center;
+        justify-content: left;
+        gap: 0px;
+        margin-top: 2px;
+        margin-left: 0px;
+        width: 90%;
+        align-items: center;
+}
+.profile-member-box p{
+        margin-left: 0px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #000000B5;
+}
+.profile-member-box h2{
+        font-weight: 500;
+        color: #000000D4;
+        font-size: 19px;
+        text-align: center;
+        
+}
+.isi {
+     display: flex;
+     justify-content: right;
+     
+     width: 100%;
+}
+.social-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        flex-direction: column;
+        width: 100%;
+        gap: 17px;
+}
+.social-box{
+        display: flex;
+        width: 90%;
+        justify-content: left;
+        align-items: center;
+        height: 90px;
+        border: 2px solid #000000;
+        border-radius: 15px;
+}
+.social-box:hover{
+        background: #00000052;
+        transition: 0.5s; 
+}
+.social-box img{
+        width: 60px;
+        height: 55px;
+        margin-left: 10px;
+        border-radius: 10px;
+       object-fit: cover
+}
+.nama-sc{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: left;
+        margin-left: 20px;
+}
+.nama-sc p{
+        font-weight: 600;
+        font-size: 20px;
+}
+.nama-sc span{
+        color: #A063FF;
+}
 }
