@@ -652,7 +652,7 @@ margin-left: 5px;
         background: #FFFBF3;
         height: 200px;
         margin-top: 65px;
-        box-shadow: rgba(64, 60, 67, 0.3) 2px 8px 10px 3px;
+        border-bottom: 0.5px solid #00000040;
 }
 .member-detail-box{
        display: flex;
