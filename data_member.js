@@ -4,7 +4,7 @@ var memberId = urlParams.get('member');
 
 if (memberId === 'nat') {
         document.getElementById('imgMember').src = 'memberimg/nat.jpg';
-        document.getElementById('namaMember').innerHTML = 'Angelina Natasya';
+        document.getElementById('namaMember').innerHTML = 'Angeline Natasya';
         document.getElementById('namaPanggilan').innerHTML = 'Nat';
         document.getElementById('posisi').innerHTML = 'Tidak ada data';
         document.getElementById('birthday').innerHTML = '8 November 2002';
