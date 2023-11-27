@@ -33,8 +33,8 @@
                 <div class="member-detail-box">
                         <img src="memberimg/nat.jpg">
                         <div class="nama-member">
-                                <span>Angeline Natasya</span>
-                                <p style="margin-top: 5px; color: #9958FF; font-weight:  500;">Nat</p>
+                                <span id="namaMember"></span>
+                                <p style="margin-top: 5px; color: #9958FF; font-weight:  500;" id="namaPanggilan"></p>
                                 <p></p>
                         </div>
                 </div>
@@ -62,19 +62,19 @@
         <div class="profile-member-box">
                 <p>Position</p>
                 <div class="isi">
-                <h2>Tidak ada data</h2></div>
+                <h2 id="posisi"></h2></div>
         </div><br>
         <span>-----------------------------------------------------------------------------------------------------------</span><br>
         <div class="profile-member-box">
                 <p>Birthday</p>
                 <div class="isi">
-                <h2>8 September 2002</h2></div>
+                <h2 id="birthday"></h2></div>
         </div><br>
         <span>-----------------------------------------------------------------------------------------------------------</span><br>
         <div class="profile-member-box">
                 <p>Horoskop </p>
                 <div class="isi">
-                <h2>Virgo</h2></div>
+                <h2 id="horoskop"></h2></div>
         </div><br>
 </div>
 
@@ -87,38 +87,38 @@
 <div class="social-container">
 <div class="social-box">
  <img src="socialimg/instagram.png">
-               <button class="buttonmem" onclick="goToWebsite('')"><div class="nama-sc">
+               <button class="buttonmem" id="linkIg"><div class="nama-sc">
                         <p>Instagram</p>
-                        <span>@aangelinenatasya</span>
+                        <span id="tagIg"></span>
                 </div>
         </div></button>
 <div class="social-box">
                 <img style="height: 50px" src="socialimg/twitterX.png">
-               <button class="buttonmem" onclick="goToWebsite('')"><div class="nama-sc">
+               <button class="buttonmem" id="linkX"><div class="nama-sc">
                         <p>X</p>
-                        <span>@natasyangeline</span>
+                        <span id="tagX"></span>
                 </div>
         </div></button>
 <div class="social-box">
                 <img src="socialimg/threads.png">
-               <button class="buttonmem" onclick="goToWebsite('')"><div class="nama-sc">
+               <button class="buttonmem" id="linkThreads"><div class="nama-sc">
                         <p>Threads</p>
-                        <span>@aangelinenatasya</span>
+                        <span id="tagThreads"></span>
                 </div>
         </div></button>
 
                        <div class="social-box">
                         <img src="socialimg/tiktok.png">
-               <button class="buttonmem" onclick="goToWebsite('')"><div class="nama-sc">
+               <button class="buttonmem" id="linkTiktok"><div class="nama-sc">
                                 <p>TikTok</p>
-                                <span>@aangelinenatasya</span>
+                                <span id="tagTiktok"></span>
                         </div>
                 </div></button>
                        <div class="social-box">
                         <img src="socialimg/fanmate.png">
-               <button class="buttonmem" onclick="goToWebsite('')"><div class="nama-sc">
+               <button class="buttonmem" id="linkFm"><div class="nama-sc">
                                 <p>Fanmate</p>
-                                <span>upgirlsnat</span>
+                                <span id="tagFm"></span>
                         </div>
                 </div></button>
         
@@ -131,6 +131,7 @@
 
   <!-- Project -->
   <script src="event-data.js"></script>
+  <script src="data_member.js"></script>
   <script src="main.js"></script>
 </body>
 </html>

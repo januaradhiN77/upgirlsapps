@@ -40,7 +40,7 @@
                 </div>
         </div>
         <div class="member-perform">
-                <button class="buttonmem" onclick="goToWebsite('member_detail.html')"><div class="member-list-box">
+                <button class="buttonmem" onclick="tampilkanDetailMember('una')"><div class="member-list-box">
                         <img src="memberimg/una.jpg">
                         <span>Una</span>
                 </div></button>
@@ -64,10 +64,10 @@
                         <img src="memberimg/vey.jpg">
                         <span>Vey</span>
                 </div>
-                <div class="member-list-box">
+                <button class="buttonmem" onclick="tampilkanDetailMember('nat')"><div class="member-list-box">
                         <img src="memberimg/nat.jpg">
                         <span>Nat</span>
-                </div>
+                </div></button>
                 <div class="member-list-box">
                         <img src="memberimg/ura.jpg">
                         <span>Ura</span>
@@ -83,6 +83,16 @@
         </div>
 </section>
 <br>
+<script>
+        
+function tampilkanDetailMember(memberId) {
+            // Mengarahkan ke halaman detail lagu sesuai lagu yang dipilih
+            window.top.location.href = 'member_detail.html?member=' + memberId;
+            
+            return false;
+        }
+        
+</script>
 
 <br>
   <!-- Project -->
