@@ -3,6 +3,7 @@ var memberId = urlParams.get('member');
 
 
 if (memberId === 'nat') {
+        document.getElementById('imgMember').src = 'memberimg/nat.jpg';
         document.getElementById('namaMember').innerHTML = 'Angelina Natasya';
         document.getElementById('namaPanggilan').innerHTML = 'Nat';
         document.getElementById('posisi').innerHTML = 'Tidak ada data';
@@ -46,8 +47,9 @@ if (memberId === 'nat') {
 }
 
 else if (memberId === 'una') {
+        document.getElementById('imgMember').src = 'memberimg/una.jpg';
         document.getElementById('namaMember').innerHTML = 'Tidak ada data';
-        document.getElementById('namaPanggilan').innerHTML = 'Nat';
+        document.getElementById('namaPanggilan').innerHTML = 'Una';
         document.getElementById('posisi').innerHTML = 'Tidak ada data';
         document.getElementById('birthday').innerHTML = 'Tidak ada data';
         document.getElementById('horoskop').innerHTML = 'Tidam ada data';
