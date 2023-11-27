@@ -473,6 +473,27 @@ margin-left: 5px;
     object-fit: cover;
     border: 2px solid #9958FF;
 }
+.member-list-box{
+
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.member-list-box span{
+      color: #9958FF;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 7px;
+}
+.member-list-box img{
+      width: 82px;
+    height: 120px;
+    border-radius: 0%;
+    object-fit: cover;
+    border: 5px solid #9958FF;
+}
 .button-buy{
         display: flex;
         flex-direction: column;
