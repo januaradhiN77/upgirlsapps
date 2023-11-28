@@ -52,7 +52,7 @@ else if (memberId === 'una') {
         document.getElementById('namaPanggilan').innerHTML = 'Una';
         document.getElementById('posisi').innerHTML = 'Tidak ada data';
         document.getElementById('birthday').innerHTML = 'Tidak ada data';
-        document.getElementById('horoskop').innerHTML = 'Tidam ada data';
+        document.getElementById('horoskop').innerHTML = 'Tidak ada data';
         document.getElementById('tagIg').innerHTML = '@firdhauna';
         document.getElementById('tagX').innerHTML = '@firdhauna';
         document.getElementById('tagThreads').innerHTML = 'tidak ada akun';
