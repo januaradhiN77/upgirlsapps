@@ -14,7 +14,7 @@ if (memberId === 'nat') {
         document.getElementById('tagThreads').innerHTML = '@aangelinenatasya';
         document.getElementById('tagTiktok').innerHTML = '@aangelinenatasya';
         document.getElementById('tagFm').innerHTML = 'upgirlsnat';
-        
+
         const linkIg = document.getElementById("linkIg");
         
         linkIg.addEventListener("click", () => {

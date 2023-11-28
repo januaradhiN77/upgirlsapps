@@ -18,7 +18,7 @@
 <header>
                 <div class="header_app" style="border-bottom: 0px solid;">
                 <div class="header_page">
-      <button class="buttonmem" onclick="goToWebsite('index.html')"> <span class="mdi mdi-arrow-left"></span></button>
+      <button class="buttonmem" onclick="goToHome('member.html')"><span class="mdi mdi-arrow-left"></span></button>
                 <h3>Member Page</h3>
   
                 </div>
@@ -38,14 +38,11 @@
                                 <p></p>
                         </div>
                 </div>
-              <div class="nav-member">
-                      <p>Profile</p>
-                      <div class="bottom-pick-det"></span>
-              </div>
+
         </div>
 </section>
 
-<section class="performed" style="margin-top: 295px;">
+<section class="performed" style="margin-top: 20px;">
         <div class="text-perform">
                 <div class="perform-text-by">
                         <h1 style="font-weight: 400;">Profile</h1>
@@ -128,10 +125,14 @@
 <br>
 <br><br>
 <br><br>
-
+<script>
+        function goToHome(homeURL) {
+      window.location.href = homeURL;
+      //alert("Oops! Terjadi kesalahan. 4000");
+    }
+</script>
   <!-- Project -->
   <script src="event-data.js"></script>
   <script src="data_member.js"></script>
-  <script src="main.js"></script>
 </body>
 </html>
